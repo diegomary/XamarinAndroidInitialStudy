@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="4">
+        <Button
+            android:id="@+id/ButtonAudio"
+            android:text="@string/PlayAudio"
+            android:width="200dp" />
+        <Button
+            android:id="@+id/ButtonFile"
+            android:text="@string/ReadFile"
+            android:width="200dp" />
+        <Button
+            android:id="@+id/ButtonAsset"
+            android:text="@string/ReadAssetFile"
+            android:width="200dp" />
+        <Button
+            android:id="@+id/ButtonActivity"
+            android:text="@string/StartActivity"
+            android:width="200dp" />
+    </GridLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ShowFile" />
+    <Chronometer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer1" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/demoImageView"
+        android:src="@drawable/rose"
+        android:scaleType="fitCenter" />
+</LinearLayout>

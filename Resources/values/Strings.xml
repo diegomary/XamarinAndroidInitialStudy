@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ReadFile">Read PDF File File</string>
+  <string name="PlayAudio">Play audio File</string>
+  <string name="ReadAssetFile">Read Asset File</string>
+  <string name="StartActivity">Start a New Activity NEW</string>
+
+  
+
+  <string name="ApplicationName">Example Android Xamarin C#</string>
+</resources>
